@@ -1,0 +1,33 @@
+.englishUnitedStates {
+  width: 189px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.components,
+.languageSelectionFrame {
+  display: flex;
+  justify-content: flex-start;
+}
+.languageSelectionFrame {
+  width: 1211px;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.components {
+  width: 100%;
+  position: relative;
+  background-color: #f0f3f8;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 331px 21px 282px var(--padding-xl);
+  box-sizing: border-box;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-darkslategray);
+  font-family: var(--font-inter);
+}

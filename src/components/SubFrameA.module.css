@@ -1,0 +1,252 @@
+.loginBody {
+  height: 454px;
+  width: 1211px;
+  position: relative;
+  border-radius: var(--br-17xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.googleSymbolsvgIcon {
+  height: 64px;
+  width: 64px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.googleIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sign {
+  text-transform: capitalize;
+}
+.in {
+  text-transform: lowercase;
+}
+.signIn {
+  margin: 0;
+  align-self: stretch;
+  height: 57px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.googleIconParent {
+  width: 182px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 37px 0;
+}
+.useYourGoole {
+  margin: 0;
+  align-self: stretch;
+  height: 78px;
+  position: relative;
+  font-size: var(--font-size-lgi);
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.fRAMEC,
+.googleLoginIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.googleLoginIcon {
+  align-self: stretch;
+  gap: 40px 0;
+  z-index: 1;
+}
+.fRAMEC {
+  height: 369px;
+  width: 303px;
+  min-width: 303px;
+}
+.learnMore,
+.notYourComputer {
+  font-family: var(--font-inter);
+}
+.notYourComputer {
+  font-weight: 500;
+  color: var(--color-gray);
+}
+.learnMore {
+  color: var(--color-dodgerblue);
+}
+.notYourComputerContainer {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-base);
+  text-align: left;
+  display: inline-block;
+}
+.guestModeMessage {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 90px 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.createAccount {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 26px;
+  position: relative;
+  font-size: var(--font-size-base-5);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-dodgerblue);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.nextButton {
+  height: 47px;
+  width: 91px;
+  z-index: 1;
+}
+.footerFrame,
+.sectionB {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.sectionB {
+  align-items: center;
+  gap: 0 39px;
+}
+.footerFrame {
+  align-items: flex-start;
+  padding: 0 var(--padding-12xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.fRAMEB,
+.subFrameJ {
+  display: flex;
+  align-items: flex-end;
+  max-width: 100%;
+}
+.subFrameJ {
+  width: 588px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 42px 0;
+  min-width: 588px;
+}
+.fRAMEB {
+  align-self: stretch;
+  border-radius: var(--br-17xl);
+  background-color: var(--color-white);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-35xl) var(--padding-lg) var(--padding-12xl)
+    var(--padding-43xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.help,
+.privacy,
+.terms {
+  cursor: pointer;
+  position: relative;
+  font-weight: 600;
+}
+.help {
+  width: 38px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.privacy,
+.terms {
+  flex: 1;
+}
+.helpTermsFrame,
+.subFrameA {
+  width: 204px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 29px;
+  font-size: var(--font-size-smi);
+  color: var(--color-darkslategray);
+}
+.subFrameA {
+  width: 1211px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-32xl);
+  color: var(--color-gray);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+  .fRAMEB {
+    padding-left: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .signIn {
+    font-size: var(--font-size-22xl);
+  }
+  .fRAMEC,
+  .subFrameJ {
+    flex: 1;
+  }
+  .fRAMEB {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .guestModeMessage {
+    gap: 90px 0;
+  }
+  .subFrameJ {
+    gap: 42px 0;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .signIn {
+    font-size: var(--font-size-12xl);
+  }
+  .googleLoginIcon {
+    gap: 40px 0;
+  }
+  .guestModeMessage {
+    gap: 90px 0;
+  }
+  .sectionB {
+    flex-wrap: wrap;
+    gap: 0 39px;
+  }
+  .fRAMEB {
+    padding-top: var(--padding-16xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
