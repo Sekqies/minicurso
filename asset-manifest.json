@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/minicurso/static/css/main.e35f660d.css",
+    "main.css": "/minicurso/static/css/main.5dc05ab4.css",
     "main.js": "/minicurso/static/js/main.6200c64d.js",
     "static/js/453.91a9f0e4.chunk.js": "/minicurso/static/js/453.91a9f0e4.chunk.js",
     "index.html": "/minicurso/index.html",
-    "main.e35f660d.css.map": "/minicurso/static/css/main.e35f660d.css.map",
+    "main.5dc05ab4.css.map": "/minicurso/static/css/main.5dc05ab4.css.map",
     "main.6200c64d.js.map": "/minicurso/static/js/main.6200c64d.js.map",
     "453.91a9f0e4.chunk.js.map": "/minicurso/static/js/453.91a9f0e4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e35f660d.css",
+    "static/css/main.5dc05ab4.css",
     "static/js/main.6200c64d.js"
   ]
 }
