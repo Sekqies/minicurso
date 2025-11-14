@@ -8,7 +8,7 @@ const EmailOrPhone: FunctionComponent = () => {
       <TextField
         className={styles.emailOrPhoneLabel}
         variant="outlined"
-        placeholder="Email or phone"
+        label="Email or phone"
         sx={{ "& .MuiInputBase-root": { height: "60px" } }}
       />
       <button className={styles.forgotEmail}>Forgot email?</button>

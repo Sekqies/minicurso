@@ -4,8 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import EmailOrPhone from "./EmailOrPhone";
 import styles from "./SubFrameA.module.css";
-
-
+import TextField from "@mui/material/TextField";
 
 
 const SubFrameA: FunctionComponent = () => {
@@ -27,7 +26,7 @@ const SubFrameA: FunctionComponent = () => {
     <section className={styles.subFrameA}>
       <div className={styles.fRAMEB}>
         <div className={styles.loginBody} />
-        <div className={styles.fRAMEC}>
+        <div className={styles.fRAMEC} style={{maxHeight: window.innerWidth < 800 ? "230px" : undefined}}>
           <div className={styles.googleLoginIcon}>
             <div className={styles.googleIconParent}>
               <div className={styles.googleIcon}>

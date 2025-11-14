@@ -4,6 +4,9 @@
 body {
   margin: 0;
   line-height: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
 }
 :root {
   /* fonts */
@@ -45,3 +48,15 @@ body {
   /* Border radiuses */
   --br-17xl: 36px;
 }
+
+@keyframes flicker {
+  0% { opacity: 1; }
+  3% { opacity: 0.2; }
+  6% { opacity: 1; }
+  10% { opacity: 0.3; }
+  100% { opacity: 1; }
+}
+
+
+/* se for usar Share Tech Mono via import */
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
